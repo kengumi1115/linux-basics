@@ -126,5 +126,4 @@ logs/app.log:2025-08-31 ERROR db down
 
 ---
 
-✅ これで「02. ファイル内容確認」編はクリア！  
-次は `git add 02_file_contents.md && git commit -m "add: 02 file contents assignments" && git push origin main` でGitHubに残そう。
+
