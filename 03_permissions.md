@@ -90,3 +90,20 @@ test
 
 ---
 
+## 課題5: ユーザーとグループの作成
+### お題
+1. 新しいユーザー `testuser` を追加  
+2. `id testuser` で UID/GID/グループを確認  
+3. 使い終わったら削除  
+
+### コマンドと結果
+```bash
+sudo adduser testuser
+id testuser
+sudo deluser testuser
+```
+```
+uid=1001(testuser) gid=1001(testuser) groups=1001(testuser),100(users)
+```
+
+---
